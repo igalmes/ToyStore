@@ -1,0 +1,32 @@
+{
+  "name": "toystore",
+  "version": "1.0.0",
+  "description": "[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![MIT License][license-shield]][license-url] <!-- PROJECT LOGO --> <br /> <p align=\"center\">   <a href=\"https://github.com/CaC-Node2023/challenge_equipo2\"><img src=\"https://avatars.githubusercontent.com/u/143467476\" alt=\"Logo\" width=\"160\" height=\"160\"></a>   <h4 align=\"center\">Codo a Codo 4.0</h4>   <h1 align=\"center\">Challenge Integrador: FUNKOSHOP</h1>   <h2 align=\"center\">Fullstack Node JS (23567)</h2>   <h3 align=\"center\">2do Cuatri 2023</h3>   <p align=\"center\"><a href=\"https://github.com/CaC-Node2023/challenge_equipo2\"><strong>Explorar los documentos »</strong></a> </p>",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.21.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "mercadopago": "^2.0.15",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.5",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
